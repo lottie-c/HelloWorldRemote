@@ -1,4 +1,4 @@
-package hello_package;
+package src;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
