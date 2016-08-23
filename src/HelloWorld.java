@@ -32,7 +32,6 @@ public class HelloWorld {
 	
 	
 	/*function prints str, with one second between each character */
-	@Log
 	public void hello2(String str){
 		for(int i=0; i<str.length(); i++){
 			int time = 10;
@@ -55,7 +54,6 @@ public class HelloWorld {
 	/*Function prints str, characters are stored in a
 	 * LinkedList. LinkedList uses memory storing objects. get and add 
 	 * run in O(n) time*/
-	@Log
 	public void hello4(String str){
 		LinkedList<Character> list = new LinkedList<Character>();
 		for (int i = 0; i< str.length(); i++){
@@ -70,7 +68,6 @@ public class HelloWorld {
 	
 	/*Function prints "Hello World!", storing characters in an
 	 * ArrayList, here get and add run in amortised O(1) time*/
-	@Log
 	public void hello5(String str){
 		ArrayList<Character> list = new ArrayList<Character>();
 		for (int i = 0; i< str.length(); i++){
